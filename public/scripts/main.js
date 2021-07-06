@@ -7,7 +7,7 @@ const modalDescription = document.querySelector('.modal p')
 const modalButton = document.querySelector('.modal button')
 
 // Pegar todos os botões que existe com a classe check
-const checkButtons = document.querySelectorAll(".actions a.check") // o a. ispecifica que é uma tag <a></a>
+const checkButtons = document.querySelectorAll(".actions a.check") // o "a." especifica que é uma tag <a></a>
 
 checkButtons.forEach(button => {
     //adicionar a escuta(listener)
